@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/angel" auth="Container"
+	type="javax.sql.DataSource" username="root" password=""
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost/angel?useUnicode=true&amp;
+	characterEncoding=UTF-8&amp;
+	serverTimezone=JST"
+	maxActive="50" maxWait="5000" maxIdle="50"/>
+</Context>
